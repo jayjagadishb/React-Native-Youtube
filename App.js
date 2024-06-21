@@ -7,6 +7,7 @@ import ImageFile from "./src/screens/ImageFile.js";
 import ButtonsEle from "./src/screens/ButtonsEle.js";
 import CardComponent from "./src/screens/components/Cardcomponent.js";
 import NetflixCard from "./src/screens/components/NetflixCard.js";
+import SecondChallenge from "./src/screens/challenges/SecondChallenge.js";
 
 export default function App() {
   return (
@@ -18,8 +19,11 @@ export default function App() {
       {/* <ImageFile /> */}
       {/* <ButtonsEle /> */}
       {/* <CardComponent /> */}
-      <NetflixCard />
-      {/* <StatusBar style="auto" /> */}
+      {/* <NetflixCard /> */}
+
+      <SecondChallenge />
+
+      <StatusBar style="auto" />
     </View>
   );
 }
@@ -29,6 +33,7 @@ const styles = StyleSheet.create({
     flex: 1,
     backgroundColor: "#fff",
     alignItems: "center",
-    // justifyContent: "center",
+
+    justifyContent: "center",
   },
 });
