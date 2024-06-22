@@ -8,6 +8,7 @@ import ButtonsEle from "./src/screens/ButtonsEle.js";
 import CardComponent from "./src/screens/components/Cardcomponent.js";
 import NetflixCard from "./src/screens/components/NetflixCard.js";
 import SecondChallenge from "./src/screens/challenges/SecondChallenge.js";
+import HookEffect from "./src/screens/HookEffect.js";
 
 export default function App() {
   return (
@@ -21,7 +22,8 @@ export default function App() {
       {/* <CardComponent /> */}
       {/* <NetflixCard /> */}
 
-      <SecondChallenge />
+      {/* <SecondChallenge /> */}
+      <HookEffect />
 
       <StatusBar style="auto" />
     </View>
